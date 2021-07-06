@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Taller de Producto 2021 on Micaela Salvo - Taller Producto 2021</title>
+    <link>https://micasalv0.github.io/docs/</link>
+    <description>Recent content in Taller de Producto 2021 on Micaela Salvo - Taller Producto 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://micasalv0.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>0 - Fabricación Digital</title>
+      <link>https://micasalv0.github.io/docs/0-fabricaciondigital/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/0-fabricaciondigital/</guid>
+      <description>Primer Post del curso; breve investigación de un tema de interés de la lectura &amp;ldquo;Design Remix Share Repeat&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>1 - Planimetrías</title>
+      <link>https://micasalv0.github.io/docs/1-planimetrias/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/1-planimetrias/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>2 - Mecanizado CNC</title>
+      <link>https://micasalv0.github.io/docs/2-mecanizadocnc/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/2-mecanizadocnc/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplo Shortcodes</title>
+      <link>https://micasalv0.github.io/docs/ejemplo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/ejemplo/</guid>
+      <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
+    </item>
+    
+    <item>
+      <title>Ejemplos Markdown</title>
+      <link>https://micasalv0.github.io/docs/markdown/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/markdown/</guid>
+      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+    </item>
+    
+  </channel>
+</rss>
