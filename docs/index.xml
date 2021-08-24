@@ -13,7 +13,7 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://micasalv0.github.io/docs/0-fabricaciondigital/</guid>
-      <description>Primer Post del curso; breve investigación de un tema de interés de la lectura &amp;ldquo;Design Remix Share Repeat&amp;rdquo;</description>
+      <description>FIXING EDUCATION AND LEARNING !! ¿Que tipo de aprendizaje se necesita para que las escuelas apoyen una cultura de diseño distribuido? El artículo escogido de “Design Remix Share Repeat” señala lo cómodo que ha sido el mundo occidental con el tema de la fabricación, ya que estamos acostumbrados a acceder a un suministro interminable de bienes como por arte de magia, sin pensar o comprender el proceso, habilidad y/o recurso que intervienen en la fabricación que hay detrás de cada objeto.</description>
     </item>
     
     <item>
@@ -31,7 +31,64 @@
       <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
       
       <guid>https://micasalv0.github.io/docs/2-mecanizadocnc/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
+      <description>Este post va dirigido al acercamiento de lo que es el mecanizado CNC y como funciona en Fusion 360.</description>
+    </item>
+    
+    <item>
+      <title>3- Mecanizado 2.5 Ejes</title>
+      <link>https://micasalv0.github.io/docs/3-cnc2.5/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/3-cnc2.5/</guid>
+      <description>Fresia01
+      Fresia02
+      Fresia03
+                                 Introducción Para este encargo se volvera a utilizar el software Fusion 360 y el modelo de la silla del encargo anterior, esta vez se realizara el mecanizado de otro componente de la silla: respaldo y con otra estrategia de mecaniazdo: Mecanizado 2.</description>
+    </item>
+    
+    <item>
+      <title>4 - Simulación y Diseño Generativo</title>
+      <link>https://micasalv0.github.io/docs/4-simulaci%C3%B3n-y-dise%C3%B1o-generativo/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/4-simulaci%C3%B3n-y-dise%C3%B1o-generativo/</guid>
+      <description>¿ Qué es el Diseño Generativo?       El diseño generativo es una Herramienta de innovación, una nueva forma de abordar la manera en que se construye y se crea el mundo a nuestro alrededor.</description>
+    </item>
+    
+    <item>
+      <title>5 - Impresión 3D</title>
+      <link>https://micasalv0.github.io/docs/5-impresion3d/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/5-impresion3d/</guid>
+      <description>Para este encargo usamos el software impresión 3D Ultimaker Cura. Cura es un software de laminado 3D, muy necesario para realizar una impresión 3D. Este tipo de impresiones requieren de un software de corte, comúnmente llamado laminador como Cura.</description>
+    </item>
+    
+    <item>
+      <title>6 - Complementarios</title>
+      <link>https://micasalv0.github.io/docs/6-complementarios/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/6-complementarios/</guid>
+      <description>Entorno de Modedalo Surface   En Fusion 360 este entorno es ideal para crear una cascara del volumen que se quiera construir, donde la superficie no tenga espesor.</description>
+    </item>
+    
+    <item>
+      <title>7 - Examen: Materiales</title>
+      <link>https://micasalv0.github.io/docs/7-examen1/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/7-examen1/</guid>
+      <description>Un problema: Velas de parafina Las Velas convencionales que se venden en las tiendas habituales son de parafina. La parafina es un subproducto de la industria de la refinería de petróleo, restos de residuo de petróleo refinado.</description>
+    </item>
+    
+    <item>
+      <title>8 - Examen: Modelo y Molde</title>
+      <link>https://micasalv0.github.io/docs/8-examen2/</link>
+      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
+      
+      <guid>https://micasalv0.github.io/docs/8-examen2/</guid>
+      <description>La cera de abeja tiene la ventaja de tener un punto de fusión alto, lo que le confiere buenas propiedades para la combustión (2-5 veces mayor comparado con la parafina), proporcionando seguridad al manejarlas.</description>
     </item>
     
     <item>
@@ -41,15 +98,6 @@
       
       <guid>https://micasalv0.github.io/docs/ejemplo/</guid>
       <description>Uso de los Shortcodes para agregar contenido en el sitio de documentación.</description>
-    </item>
-    
-    <item>
-      <title>Ejemplos Markdown</title>
-      <link>https://micasalv0.github.io/docs/markdown/</link>
-      <pubDate>Wed, 17 Jun 2020 19:30:08 +1000</pubDate>
-      
-      <guid>https://micasalv0.github.io/docs/markdown/</guid>
-      <description>Ejemplos de uso de lenguaje Markdown para redactar las publicaciones.</description>
     </item>
     
   </channel>

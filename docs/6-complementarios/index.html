@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>6 - Complementarios - Micaela Salvo - Taller Producto 2021</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://micasalv0.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.a32658f2eedb9bb852f8513925cb445e40633983f1ff54349b037dd04eafa2fa.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://micasalv0.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://micasalv0.github.io/"><img alt="Logo" src="/images/logo-uai.png" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-inicio">
+      <a href="/">
+        <span>Inicio</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-dococumentación">
+      <a href="/docs/">
+        <span>Dococumentación</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/0-fabricaciondigital/">0 - Fabricación Digital</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/1-planimetrias/">1 - Planimetrías</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/2-mecanizadocnc/">2 - Mecanizado CNC</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/3-cnc2.5/">3- Mecanizado 2.5 Ejes</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/4-simulaci%C3%B3n-y-dise%C3%B1o-generativo/">4 - Simulación y Diseño Generativo</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/5-impresion3d/">5 - Impresión 3D</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://micasalv0.github.io/docs/6-complementarios/">6 - Complementarios</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/7-examen1/">7 - Examen: Materiales</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/8-examen2/">8 - Examen: Modelo y Molde</a>
+    </li>
+    
+    <li class="">
+      <a href="https://micasalv0.github.io/docs/ejemplo/">Ejemplo Shortcodes</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">6 - Complementarios</h1>
+<div class="content ">
+  <ul>
+<li>
+<h3 id="entorno-de-modedalo-surface">Entorno de Modedalo <strong>Surface</strong></h3>
+</li>
+</ul>
+<p>En <code>Fusion 360</code> este entorno es ideal para crear una cascara del volumen que se quiera construir, donde la superficie no tenga espesor.</p>
+<p><img src="/img/fusion.jpg" alt="Imagen"></p>
+<p><strong>Paso 0:</strong>
+<code>Diseño &gt; Superfie &gt; Crear Boceto &gt; Spline</code></p>
+<p><strong>Paso 1:</strong>
+En vista Top Crear una figura simple.</p>
+<p><strong>Paso 2:</strong>
+Crear una superficie similar en un plano mas arriba que la anterior.</p>
+<p><strong>Paso 3:</strong>
+Hacer un <code>Loft</code> entre ambas figuras.</p>
+<p><strong>Paso 4:</strong>
+Crear una figura aleatoria sobre el onjeto creado.</p>
+<p><strong>Paso 5:</strong>
+Aplicar comando <code>Extrude</code> hacia ambos lados en la figura creada en el paso 4.</p>
+<p><strong>Paso 6:</strong>
+Aplicar <code>Solido &gt; Split</code> entre ambas superficies.</p>
+<p><strong>Paso 7:</strong>
+Aplicar <code>Trim</code> entre la primera y la segunda superficie para que quede solo el interior de esta última.
+<em>*Esto nos da cuenta que siempre que tengamos dos superficies es posible crear la intersección exacta entre ellas.</em></p>
+<p><strong>Paso 8</strong>:
+Ahora se ocupa el comando <code>Parche</code> en la parte superior e inferior de la figura,
+cuya función es cerrar la figura.</p>
+<p><strong>Paso 9:</strong>
+Usar comando <code>Stich</code> en todos los vertices de la figura <em>(en verde)</em> para unir
+toda la figura en un solo solido.
+<em>*Esto se pude corroborar en <code>Inspect &gt; Section Analysis</code></em></p>
+<p><strong>Paso 10:</strong>
+Luego se usa el comando <code>Fillet</code> en cada vertice de la superficie para redondearlo.</p>
+<p><strong>Paso 11:</strong>
+Utilizar comando <code>Shell</code> , cuya función es transformar un solido en una caja manteniedno un espesor continuo en toda la geometría.
+<em>*Esto se puede volver a corroborar en <code>Section Analysis</code></em></p>
+<p>
+<link rel="stylesheet" href="/css/hugo-easy-gallery.css" />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup1.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup1.PNG" alt="Sup1" />
+				    </div>
+			      <figcaption>
+		          <p>Sup1</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup1.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup10.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup10.PNG" alt="Sup10" />
+				    </div>
+			      <figcaption>
+		          <p>Sup10</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup10.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup11.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup11.PNG" alt="Sup11" />
+				    </div>
+			      <figcaption>
+		          <p>Sup11</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup11.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup12.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup12.PNG" alt="Sup12" />
+				    </div>
+			      <figcaption>
+		          <p>Sup12</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup12.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup2.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup2.PNG" alt="Sup2" />
+				    </div>
+			      <figcaption>
+		          <p>Sup2</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup2.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup3.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup3.PNG" alt="Sup3" />
+				    </div>
+			      <figcaption>
+		          <p>Sup3</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup3.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup4.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup4.PNG" alt="Sup4" />
+				    </div>
+			      <figcaption>
+		          <p>Sup4</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup4.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup5.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup5.PNG" alt="Sup5" />
+				    </div>
+			      <figcaption>
+		          <p>Sup5</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup5.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup6.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup6.PNG" alt="Sup6" />
+				    </div>
+			      <figcaption>
+		          <p>Sup6</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup6.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup7.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup7.PNG" alt="Sup7" />
+				    </div>
+			      <figcaption>
+		          <p>Sup7</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup7.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup8.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup8.PNG" alt="Sup8" />
+				    </div>
+			      <figcaption>
+		          <p>Sup8</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup8.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/superficie//sup9.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/superficie//sup9.PNG" alt="Sup9" />
+				    </div>
+			      <figcaption>
+		          <p>Sup9</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/superficie//sup9.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+<div>
+    <iframe 
+    src='https://alumnos4805.autodesk360.com/shares/public/SH56a43QTfd62c1cd968d3a137beb2e58732?mode=embed'
+    width="100%" 
+    height="450" 
+    allowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    mozallowfullscreen="true"  
+    frameborder="0">
+    </iframe>    
+</div>
+<hr>
+<ul>
+<li>
+<h3 id="creación-de-molde">Creación de <strong>Molde</strong></h3>
+</li>
+</ul>
+<h3 id="creación-de-geometría-base"><strong>Creación de Geometría Base</strong></h3>
+<p><strong>Paso 1:</strong>
+Crear Eje de Simetría para facilitar la construcción del molde</p>
+<p><strong>Paso 2:</strong>
+Usar comando <code>Revolve</code> con <em>Axis</em> en el eje de simetria creado anteriormente para crear la figura.</p>
+<p><strong>Paso 3:</strong>
+Realizar <code>Fillet</code> tanto en el circulo externo como en el inetrno.</p>
+<h3 id="creación-de-molde-1"><strong>Creación de Molde</strong></h3>
+<p><strong>Paso 4:</strong>
+Utilizar vista inferior del objeto y crear un rectangulo.</p>
+<p><strong>Paso 5:</strong>
+Extruir el elemento dependiendo del grosor que se quiera del molde</p>
+<p><strong>Paso 6:</strong>
+Usar el comando <code>Combine</code> , donde el <strong>Target Body</strong> será el Molde y el <strong>Tool Bodies</strong> se´ra la figura creada.
+<em>La operción debe estar en <strong>CUT</strong> y de deben mantenener los <strong>Tools</strong></em></p>
+<p><code>**OJO**: Inspeccionar el molde por dentro para verificar que los angulos de desmolde sean los correctos y de esta manera evitar complicaciones a la hora de tener que desmoldar, para esto se deben evitar los angulos rectos, intentendo de tener un ángulo mínimo de 5-8° en cada lado.</code></p>
+<p>
+
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//molde01.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//molde01.PNG" alt="Molde01" />
+				    </div>
+			      <figcaption>
+		          <p>Molde01</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//molde01.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso02.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso02.PNG" alt="Paso02" />
+				    </div>
+			      <figcaption>
+		          <p>Paso02</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso02.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso03.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso03.PNG" alt="Paso03" />
+				    </div>
+			      <figcaption>
+		          <p>Paso03</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso03.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso04.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso04.PNG" alt="Paso04" />
+				    </div>
+			      <figcaption>
+		          <p>Paso04</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso04.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso05.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso05.PNG" alt="Paso05" />
+				    </div>
+			      <figcaption>
+		          <p>Paso05</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso05.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso06.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso06.PNG" alt="Paso06" />
+				    </div>
+			      <figcaption>
+		          <p>Paso06</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso06.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso07.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso07.PNG" alt="Paso07" />
+				    </div>
+			      <figcaption>
+		          <p>Paso07</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso07.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso08.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso08.PNG" alt="Paso08" />
+				    </div>
+			      <figcaption>
+		          <p>Paso08</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso08.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('https://micasalv0.github.io//img/molde//paso09.PNG');" >
+				      <img itemprop="thumbnail" src="https://micasalv0.github.io//img/molde//paso09.PNG" alt="Paso09" />
+				    </div>
+			      <figcaption>
+		          <p>Paso09</p>
+			      </figcaption>
+				    <a href="https://micasalv0.github.io//img/molde//paso09.PNG" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+ 
+
+
+</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>
